@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 27, 2020
+ *      Author: tuandang
+ */
+
+
+
+
+
+#include <xdc/std.h>
+
+#include <xdc/runtime/System.h>
+#include <ti/sysbios/BIOS.h>
+#include <ti/board/board.h>
+#include <ti/fs/fatfs/ff.h>
+#include <ti/drv/uart/UART.h>
+#include <ti/drv/uart/UART_stdio.h>
+
+Int main()
+{
+    System_printf("hello world\n");
+    testRWFile();
+
+    /*
+     *  normal BIOS programs, would call BIOS_start() to enable interrupts
+     *  and start the scheduler and kick BIOS into gear.  But, this program
+     *  is a simple sanity test and calls BIOS_exit() instead.
+     */
+    BIOS_exit(0);  /* terminates program and dumps SysMin output */
+    return(0);
+}

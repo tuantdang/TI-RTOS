@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?ccsproject version="1.0"?>
+<projectOptions>
+	<ccsVersion value="10.1.0"/>
+	<deviceVariant value="Cortex A.AM4379"/>
+	<deviceFamily value="TMS470"/>
+	<deviceEndianness value="little"/>
+	<codegenToolVersion value="GNU_7.2.1:Linaro"/>
+	<isElfFormat value="true"/>
+	<rts value=""/>
+	<createSlaveProjects value=""/>
+	<templateProperties value="id=com_ti_rtsc_sysbios_example_383.projectspec.hello,type=rtsc,products=com.ti.rtsc.SYSBIOS,target=gnu.targets.arm.A9F,buildProfile=release,isHybrid=true"/>
+	<origin value="C:\ti\bios_6_76_03_01\resources\gnuTargetExamples\genericExamples\com_ti_rtsc_sysbios_example_383.projectspec"/>
+	<filesToOpen value=""/>
+	<isTargetManual value="true"/>
+</projectOptions>
